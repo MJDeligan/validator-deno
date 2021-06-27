@@ -84,6 +84,8 @@ import isUUID from "./src/lib/isUUID.ts";
 import isVariableWidth from "./src/lib/isVariableWidth.ts";
 import isWhitelisted from "./src/lib/isWhitelisted.ts";
 import matches from "./src/lib/matches.ts";
+import maxLength from "./src/lib/maxLength.ts";
+import minLength form "./src/lib/minLength.ts";
 
 // For testing (resolving keys as string)
 interface ValidatorMap {
@@ -166,6 +168,8 @@ const validator: ValidatorMap = {
   isVariableWidth,
   isWhitelisted,
   matches,
+  maxLength,
+  minLength,
   mobilePhoneLocales,
   postalCodeLocales,
   version,
