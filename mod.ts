@@ -85,7 +85,7 @@ import isVariableWidth from "./src/lib/isVariableWidth.ts";
 import isWhitelisted from "./src/lib/isWhitelisted.ts";
 import matches from "./src/lib/matches.ts";
 import maxLength from "./src/lib/maxLength.ts";
-import minLength form "./src/lib/minLength.ts";
+import minLength from "./src/lib/minLength.ts";
 
 // For testing (resolving keys as string)
 interface ValidatorMap {
